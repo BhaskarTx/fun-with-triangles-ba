@@ -6,55 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz-Triangles</title>
+    <link rel="stylesheet" href="quiz-style.css">
 </head>
 
 <body>
+    <div class="navbar">
 
-    <form class="quiz-form">
-        <div class="question-container">
-            <p>What is the third angle of triangle if the other two angles are 60 degrees and 40 degrees?</p>
-            <label>
-                <input type="radio" name="ques1" value="45°" />
-                45°
-            </label>
-            <label>
-                <input type="radio" name="ques1" value="90°" />
-                90°
-            </label>
-            <label>
-                <input type="radio" name="ques1" value="60°" />
-                60°
-            </label>
-            <label>
-                <input type="radio" name="ques1" value="80°" />
-                80°
-            </label>
+        <nav>
+            <a href="index.html">Is Triangle</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="hypo-index.html">Hypotenuse Calculator</a>
+            <a href="area-index.html">Area Calculator</a>
+
+        </nav>
+    </div>
+    <h2 class="container">
+        Quiz On Triangles
+    </h2>
+    <p class="des">This is a quiz on basics of triangles. Select your answers and hit SUBMIT to check your score. Let's
+        gooo !</p>
+    <div class="container">
+
+        <form class="quiz-form">
+            <div class="question-container">
+                <p class="questions1">What is the third angle of triangle if the other two angles are 60 degrees and 40 degrees?</p>
+                <label>
+                    <input type="radio" name="ques1" value="45°" />
+                    45°
+                </label>
+                <label>
+                    <input type="radio" name="ques1" value="90°" />
+                    90°
+                </label>
+                <label>
+                    <input type="radio" name="ques1" value="60°" />
+                    60°
+                </label>
+                <label>
+                    <input type="radio" name="ques1" value="80°" />
+                    80°
+                </label>
+            </div>
+            <div class="question-container">
+                <p class="questions1">What is the triangle called if one angle is greater than 90°?</p>
+                <label>
+                    <input type="radio" name="ques2" value="acute" />
+                    acute
+                </label>
+                <label>
+                    <input type="radio" name="ques2" value="obtuse" />
+                    obtuse
+                </label>
+                <label>
+                    <input type="radio" name="ques2" value="equilateral" />
+                    equilateral
+                </label>
+                <label>
+                    <input type="radio" name="ques2" value="isosceles" />
+                    isosceles
+                </label>
+            </div>
+
+        </form>
+        <div class="btns">
+            <button id="submit" class="btn">Submit</button>
+            <button id="refresh" class="btn">Refresh</button>
         </div>
-        <div class="question-container">
-            <p>What is the triangle called if one angle is greater than 90°?</p>
-            <label>
-                <input type="radio" name="ques2" value="acute" />
-                acute
-            </label>
-            <label>
-                <input type="radio" name="ques2" value="obtuse" />
-                obtuse
-            </label>
-            <label>
-                <input type="radio" name="ques2" value="equilateral" />
-                equilateral
-            </label>
-            <label>
-                <input type="radio" name="ques2" value="isosceles" />
-                isosceles
-            </label>
-        </div>
 
-    </form>
-    <button id="submit">Submit My Answers</button>
-<p class="output"></p>
-
-
+        <p class="output"> </p>
+        <span class="output-value"></span>
+    </div>
 
     <script src="quiz-script.js"></script>
 </body>

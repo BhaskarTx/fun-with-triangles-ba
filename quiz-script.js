@@ -1,7 +1,8 @@
 const formInput = document.querySelector(".quiz-form")
 const submitBTN = document.querySelector("#submit")
 const results = document.querySelector(".output") 
-
+const rValue = document.querySelector(".output-value")
+const refreshBTN = document.querySelector("#refresh")
 const rightAns = ["80°","obtuse"];
 
 function calcResults(){
@@ -15,9 +16,15 @@ function calcResults(){
         }
         ind++;
     }
-    results.innerHTML = "You Scored " + score
+    results.innerHTML = "You Scored "
+    rValue.innerHTML =  score
     console.log(score)
+}
+function refreshHandler(){
+    formInput.reset();
+    results.style.display = "none"
+    rValue.style.display = "none"
 }
 
 submitBTN.addEventListener("click", calcResults)
-
+refreshBTN.addEventListener("click", refreshHandler)

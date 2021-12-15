@@ -33,20 +33,28 @@ a{
     
     /* width: 50%; */
 }
-.description{
-    text-align: justify;
-    /* width: 70%; */
+.des {
     color: white;
 }
+.line-horizontal{
+    width: 20%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    list-style: square;
+}
 label{
-    padding: .4rem;
+    padding: .8rem;
+}
+input{
+    padding: 0.5rem;
+    border-radius: 1rem
 }
 
-#check{
+#calculate{
     margin-top: 2rem;
     background-color: var(--p-yellow);
     padding: .6rem;
     font-size: large;
     border: 4px solid white;
-    border-radius: 15px;
+    border-radius: 1rem;
 }
