@@ -1,0 +1,39 @@
+:root {
+    --p-dark: rgb(11, 26, 44);
+    --p-yellow: #fff126;
+    --p-dark-yellow: #dac402;
+    
+}
+
+body {
+    background-color: var(--p-dark);
+    color: var(--p-yellow);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: auto;
+    padding: 3rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    
+    /* width: 50%; */
+}
+.description{
+    text-align: justify;
+    width: 70%;
+}
+label{
+    padding: .4rem;
+}
+
+#check{
+    margin-top: 2rem;
+    background-color: var(--p-yellow);
+    padding: .6rem;
+    font-size: large;
+    border: 4px solid white;
+    border-radius: 15px;
+}
