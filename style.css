@@ -4,12 +4,6 @@
     --p-dark-yellow: #dac402;
     
 }
-
-body {
-    background-color: var(--p-dark);
-    color: var(--p-yellow);
-    font-family: 'Poppins', sans-serif;
-}
 .navbar{
     background-color: var(--p-yellow);
     padding: 1.2rem;
@@ -23,6 +17,12 @@ a{
 
 
 }
+body {
+    background-color: var(--p-dark);
+    color: var(--p-yellow);
+    font-family: 'Poppins', sans-serif;
+}
+
 .container{
     margin: auto;
     padding: 3rem;
@@ -30,13 +30,15 @@ a{
     flex-flow: column;
     align-items: center;
     text-align: center;
-    
-    /* width: 50%; */
 }
-.description{
-    text-align: justify;
-    /* width: 70%; */
+.description {
     color: white;
+}
+.line-horizontal {
+    width: 23%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    list-style: square;
 }
 label{
     padding: .4rem;
@@ -49,4 +51,36 @@ label{
     font-size: large;
     border: 4px solid white;
     border-radius: 15px;
+}
+#check:hover{
+    background-color: var(--p-dark-yellow);
+    color: white;
+    }
+h2{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2   rem;
+
+}
+
+#output{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+
+}
+#output2{
+    color: var(--p-yellow);
+    font-size: 5rem;
+    text-align: center;
+}
+label {
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    padding: .8rem;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 1rem
 }

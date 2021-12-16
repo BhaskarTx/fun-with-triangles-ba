@@ -2,7 +2,7 @@
     --p-dark: rgb(11, 26, 44);
     --p-yellow: #fff126;
     --p-dark-yellow: #dac402;
-    
+
 }
 
 body {
@@ -10,51 +10,82 @@ body {
     color: var(--p-yellow);
     font-family: 'Poppins', sans-serif;
 }
-.navbar{
+
+.navbar {
     background-color: var(--p-yellow);
     padding: 1.2rem;
     columns: var(--p-dark);
     font-weight: bold;
 }
-a{
+
+a {
     text-decoration: none;
     padding: 1.2rem;
     font-size: large;
 
 
 }
-.container{
+
+.container {
     margin: auto;
     padding: 3rem;
     display: flex;
     flex-flow: column;
     align-items: center;
     text-align: center;
-    
+
     /* width: 50%; */
 }
-.des {
+
+.description {
     color: white;
 }
-.line-horizontal{
+
+.line-horizontal {
     width: 20%;
     margin-bottom: 2rem;
     margin-top: 1rem;
     list-style: square;
 }
-label{
+
+label {
     padding: .8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
 }
-input{
+
+input {
     padding: 0.5rem;
     border-radius: 1rem
 }
 
-#calculate{
+#calculate,
+.btn {
     margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     background-color: var(--p-yellow);
     padding: .6rem;
     font-size: large;
     border: 4px solid white;
     border-radius: 1rem;
 }
+
+.output{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+
+}
+.output-value{
+    color: var(--p-yellow);
+    font-size: 3rem;
+    text-align: center;
+}
+
+button:hover {
+    background-color: var(--p-dark-yellow);
+    color: white;
+}
+

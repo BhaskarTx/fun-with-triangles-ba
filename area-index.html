@@ -17,24 +17,28 @@
             <a href="quiz.html">Quiz</a>
             <a href="hypo-index.html">Hypotenuse Calculator</a>
             <a href="area-index.html">Area Calculator</a>
-            
+
         </nav>
     </div>
     <div class="container">
-        <h2>Area Calculator</h2>
-        <p class="des">This page provides you with the area of the triangle if you provide the base and the height of
-            the same triangle. 
+        <h1>Area Calculator</h1>
+        <p class="description">This page provides you with the area of the triangle if you provide the base and the
+            height of
+            the same triangle.
             The formula used was-</p>
         <!-- <p class="des">The formula used was-</p> -->
         <h3>Area = (1/2)*base*height</h3>
         <hr class="line-horizontal">
-        <label>base (b) = </label>
+        <label>Enter Base (b) = </label>
         <input class="sides" type="number" />
-        <label>height (h) = </label>
+        <label>Enter Height (h) = </label>
         <input class="sides" type="number" />
-
-        <button id="calculate">Calculate Area</button>
+        <div>
+            <button id="calculate">Calculate</button>
+            <button id="refresh" class="btn">Refresh</button>
+        </div>
         <p class="output"></p>
+        <span class="output-value"></span>
     </div>
 
 

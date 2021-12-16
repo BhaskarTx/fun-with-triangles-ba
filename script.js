@@ -1,6 +1,7 @@
 const inputs = document.querySelectorAll(".input-angle")
 const checkBTN = document.querySelector("#check")
 const outputDes = document.querySelector("#output")
+const outputDes2 = document.querySelector("#output2")
 
 // console.log(inputs[0].nodeValue)
 
@@ -16,19 +17,23 @@ function checkTriangle() {
     const ang3 = inputs[2].value;
 
 
-    if (ang1 && ang2 && ang3 > 0) {
+    if (ang1>0 && ang2>0 && ang3 > 0) {
         // console.log(ang1, ang2, ang3)
         var sum = calculateSum(ang1, ang2, ang3);
         // console.log(typeof (ang1))
         // console.log("sum is ", sum)
         if (sum === 180) {
-            outputDes.innerHTML = "Yayy! It forms a Triangle Buddy :)"
+            outputDes.innerHTML = "Yayy! It forms a Triangle Buddy"
+            outputDes2.innerHTML = ":)"
+
         } else {
-            outputDes.innerHTML = "Oh No! Can't form a Triangle with these angles :("
+            outputDes.innerHTML = "Oh No! Can't form a Triangle with these angles!"
+            outputDes2.innerHTML = ":("
         }
     } else {
         // console.log("you oversmart !")
         outputDes.innerHTML = "Please Enter Valid Angle Values"
+        outputDes2.innerHTML = ":0"
     }
 }
 

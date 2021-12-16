@@ -20,15 +20,21 @@
     </div>
     <div class="container">
 
-    <h2>Hypotenuse Calculator</h2>
-    <label for="var-a">a = </label>
+    <h1>Hypotenuse Calculator</h1>
+    <p class="description">This page let's you find out the Hypotenuse value in a right angled triangle, if you provide with base and altitude values.</p>
+    <h3>Hypotenuse = ( (a) <sup>2</sup> + (b) <sup>2</sup> ) <sup>1/2</sup></h3>
+    <hr class="line-horizontal">
+    <label for="var-a">Enter Side 1 (a) = </label>
     <input type="number" class="sides" />
 
-    <label for="var-b">b = </label>
+    <label for="var-b">Enter Side 1 (b) = </label>
     <input type="number" class="sides" />
-
-    <button id="calculate">Calculate</button>
+<div>
+    <button id="calculate" >Calculate</button>
+<button id="refresh" class="btn">Refresh</button>
+</div>
 <p id="output"></p>
+<span id="output-value"></span>
 </div>
 
     <script src="hypo-script.js"></script>
