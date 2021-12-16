@@ -16,6 +16,8 @@ function calcResults(){
         }
         ind++;
     }
+    results.style.display = "inline"
+    rValue.style.display = "inline"
     results.innerHTML = "You Scored "
     rValue.innerHTML =  score
     console.log(score)
