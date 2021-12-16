@@ -32,6 +32,7 @@ function refreshHandler() {
     outputVal.style.display = "none"
     sides[0].value = "";
     sides[1].value = "";
+    alert("Page Refreshed!")
 
 }
 

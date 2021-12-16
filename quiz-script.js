@@ -24,6 +24,8 @@ function refreshHandler(){
     formInput.reset();
     results.style.display = "none"
     rValue.style.display = "none"
+    alert("Page Refreshed!")
+
 }
 
 submitBTN.addEventListener("click", calcResults)
