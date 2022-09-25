@@ -3,7 +3,7 @@ const submitBTN = document.querySelector("#submit")
 const results = document.querySelector(".output") 
 const rValue = document.querySelector(".output-value")
 const refreshBTN = document.querySelector("#refresh")
-const rightAns = ["80°","obtuse"];
+const rightAns = ["80°","4√3","right angled","6","80"];
 
 function calcResults(){
     let score = 0;
