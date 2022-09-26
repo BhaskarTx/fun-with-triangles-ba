@@ -15,9 +15,10 @@ a{
     text-decoration: none;
     padding: 1.2rem;
     font-size: large;
-
+    color: var(--p-dark);
 
 }
+
 body {
     background-color: var(--p-dark);
     color: var(--p-yellow);
@@ -78,4 +79,31 @@ button:hover {
     color: var(--p-yellow);
     font-size: 3rem;
     text-align: center;
+}
+
+.footer {
+    background-color: var(--p-yellow);
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: var(--p-dark);
+
+}
+
+.links {
+    text-decoration: none;
+    color: var(--p-dark);
+    padding: 5px
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social {
+    cursor: pointer;
+    color: black;
 }

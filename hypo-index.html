@@ -7,6 +7,8 @@
     <title>Hypotenuse Calculator</title>
     <link rel="stylesheet" href="hypo-style.css">
     <link rel="icon" type="image/x-icon" href="myLogo.ico" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
     
 </head>
 <body>
@@ -27,10 +29,10 @@
     <h3>Hypotenuse = ( (a) <sup>2</sup> + (b) <sup>2</sup> ) <sup>1/2</sup></h3>
     <hr class="line-horizontal">
     <label for="var-a">Enter Side 1 (a) = </label>
-    <input type="number" class="sides" />
+    <input placeholder="Enter side(a)" type="number" class="sides" />
 
-    <label for="var-b">Enter Side 1 (b) = </label>
-    <input type="number" class="sides" />
+    <label for="var-b">Enter Side 2 (b) = </label>
+    <input placeholder="Enter side(b)" type="number" class="sides" />
 <div>
     <button id="calculate" >Calculate</button>
 <button id="refresh" class="btn">Refresh</button>
@@ -38,7 +40,29 @@
 <p id="output"></p>
 <span id="output-value"></span>
 </div>
+<footer class="footer">
+    <div>
 
+        Assembled and Designed by &nbsp<a rel="noopener" target="_blank" class="links" href="https://github.com/iONBain">
+            @iONBain</a>
+    </div>
+    <div class="social-links">
+        Let's Connect
+
+        <a rel="noopener" target="_blank" href="https://twitter.com/BAgrawal6" class="links">
+            <i class="fa-brands fa-twitter social"></i>
+        </a>
+        <a rel="noopener" target="_blank" href="https://www.linkedin.com/in/bhaskar-agrawal-598b5a16b/" class="links">
+            <i class="fa-brands fa-linkedin-in social"></i>
+        </a>
+        <a rel="noopener" target="_blank" href="https://www.instagram.com/ion_bain/" class="links">
+            <i class="fa-brands fa-instagram social"></i>
+        </a>
+
+
+    </div>
+
+</footer>
     <script src="hypo-script.js"></script>
 </body>
 </html>
