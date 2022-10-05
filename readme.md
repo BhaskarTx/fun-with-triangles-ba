@@ -18,9 +18,9 @@ Here are a few project-related insight pictures:
 6. Quiz on Triangles - If we don't select any answers, our score will be zero, no negative marking here :)
 ![quizOutput2](./images/qop2.png)
 5. Hypotenuse Calculator - If we provide with height and base of a right angled triangle, webapp will provide with the hypotenuse of the same triangle. 
-![hypoOutput1](./images/hop1.png)
+![hypoOutput1](./images/hOP1.png)
 6. Hypotenuse Calculator - Handling negative and blank values in the calculator
-![hypoOutput1](./images/hop2.png)
+![hypoOutput1](./images/hOP2.png)
 
 Area calculator is also there ! Pls visit the website by [clicking here.](https://fun-with-triangles-ba.netlify.app/area-index.html)
 > Technologies/Libraries used :-
