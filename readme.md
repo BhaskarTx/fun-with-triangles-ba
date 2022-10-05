@@ -1,8 +1,6 @@
 # Fun with Triangles
 An app that tells you how much money you made or lost in stock market. 
 
->Colored outputs are being shared based on "profit" scenario or "loss" scenario or "no profit no loss" scenario
-
 Here are a few project-related insight pictures:
 
 1. Landing Page 
